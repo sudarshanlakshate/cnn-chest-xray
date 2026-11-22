@@ -29,4 +29,4 @@ jobs:
           # uv run pytest
 
       - name: Build Docker image
-        run: docker build -t agentic-ops:latest .
+        run: docker build -t cnn-chest-xray:latest .
